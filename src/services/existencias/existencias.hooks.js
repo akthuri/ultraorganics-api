@@ -1,11 +1,9 @@
-const search = require('feathers-nedb-fuzzy-search')
+
 
 module.exports = {
   before: {
     all: [],
-    find: [
-      search({fields: ['whsName']})
-    ],
+    find: [],
     get: [],
     create: [],
     update: [],

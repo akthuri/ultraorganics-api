@@ -16,6 +16,8 @@ const services = require('./services');
 const appHooks = require('./app.hooks');
 const channels = require('./channels');
 
+const jobs = require('./jobs')
+
 const app = express(feathers());
 
 // Load app configuration
